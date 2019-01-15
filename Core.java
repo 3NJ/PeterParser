@@ -8,7 +8,6 @@ import java.util.*;
  */
 public class Core 
 {	// beginning of class
-	{
 	
 	ArrayList output = new ArrayList<String>();
 
@@ -29,5 +28,5 @@ public class Core
 
 	
 
-	}		
+			
 }//end of class
