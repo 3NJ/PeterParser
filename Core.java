@@ -34,6 +34,7 @@ public class Core
 //	 	static in = Input.nextLine();
 	
 		private static String InputText;
+		
  //Getter and Setter for InputText	
 		
 		private static String GetInputText () {
@@ -62,6 +63,7 @@ public class Core
 						System.out.printf(x);//This prints out instructions given (a String) from the x variable
 						System.out.println();
 						SetInputText(Input.nextLine());
+						Input.close();
 						Instructions(1);
 						Instructions(2);
 						
